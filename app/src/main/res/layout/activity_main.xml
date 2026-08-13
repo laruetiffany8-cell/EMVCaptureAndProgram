@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap REAL card to capture"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture EMV Card"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for NFC..."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnProgramCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program JavaCard"
+        android:enabled="false"
+        android:padding="16dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnResetCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Card to Defaults"
+        android:enabled="false"
+        android:padding="16dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textCapturedARQC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="11sp"
+        android:padding="10dp"
+        android:visibility="gone" />
+</LinearLayout>
