@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EMV Capture + Program</string>
+    <string name="btn_capture">Capture EMV Card</string>
+    <string name="btn_program">Program JavaCard</string>
+    <string name="status_idle">Ready. Tap a card.</string>
+    <string name="status_capturing">Capturing…</string>
+    <string name="status_captured">Card captured!</string>
+    <string name="status_programming">Programming…</string>
+    <string name="status_programmed">JavaCard Programmed!</string>
+    <string name="status_error">Error</string>
+</resources>
