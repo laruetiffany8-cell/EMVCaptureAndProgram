@@ -7,7 +7,7 @@
         android:allowBackup="true"
         android:label="EMV Capture + Program"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Dark">
+        android:theme="@android:style/Theme.Material">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
